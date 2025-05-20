@@ -9,15 +9,15 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
-            <q>Lagi nganggur🚀</q>
+            <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang mengganggur, Tapi harus tetap berkarya dong brur 🚀</p>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">Hi, Saya Muhammad Suyuti</h1>
-          <p className="=text-base/loose mb-6 opacity-50">Saya sedang tidak bekerja kurang lebih 8 bulan terakhir saya bekerja di PT. Adis Dimension Footwear</p>
+          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
-            <a href="" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
+            <a href="#kontak" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
-            <a href="" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
+            <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
               Lihat Proyek<i class="ri-arrow-down-line ri-lg"></i>
             </a>
           </div>
@@ -31,24 +31,22 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
-            Hai perkenalkan Saya Muhammad suyuti Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione sunt nesciunt beatae doloribus. Dicta eaque mollitia officiis amet, suscipit error nemo reiciendis omnis iusto voluptatum.
-            Consectetur dignissimos sint corporis sed voluptates officia nam aliquid molestiae tempora quos optio expedita vero debitis minus, explicabo deserunt cumque praesentium ipsum, dolor repudiandae. Rem, eveniet velit est cumque
-            fuga corrupti delectus consequuntur accusamus eligendi voluptate totam minima quo adipisci. Ea quam quis eligendi laudantium esse. Ad, vero aperiam? Veritatis cupiditate velit atque culpa consequuntur dolorem architecto?
-            Accusamus minus illum sint? Perspiciatis corporis rem soluta consectetur, provident sed voluptatum velit aspernatur exercitationem ad tenetur maxime?
+            Hai perkenalkan Saya Muhammad suyuti, lulusan Universitas Serang Raya Tahun 2018. Memiliki pengalaman kerja selama 3–4 tahun di berbagai bidang industri manufaktur alas kaki, dengan pemahaman mendalam terhadap proses perancanaan
+            produksi, kontrol kualitas dan pengelolaan admin dibidang logistik. Selain itu, aktif sebagai freelance IT Support, menangani instalasi jaringan, perakitan dan perbaikan perangkat komputer, serta troubleshooting sistem.
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-1xl mb-1">
-                  45<span className="text-violet-500">+</span>
-                  <p>Tahun pengalaman</p>
+                  5<span className="text-violet-500">+</span>
+                  <p>Proyek Selesai</p>
                 </h1>
               </div>
               <div>
                 <h1 className="text-1xl mb-1">
-                  45<span className="text-violet-500">+</span>
-                  <p>Tahun pengalaman</p>
+                  4<span className="text-violet-500">+</span>
+                  <p>Tahun Pengalaman Kerja</p>
                 </h1>
               </div>
             </div>
@@ -58,12 +56,11 @@ function App() {
         {/* Tool */}
         <div className="tools mt-32" id="tool">
           <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            Tools yang dipakai
+            Software dan Tools
           </h1>
           <p className="w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
             {/* xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full  */}
-            Berukut ini Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto at dolorum dolores veniam reprehenderit aspernatur dicta animi, facere fugiat excepturi doloremque iure perspiciatis expedita ex, omnis nisi hic possimus
-            modi.
+            Berikut ini software dan tools yang dipakai dalam melakukan pekerjaan
           </p>
           <div className="tools-box mt-14 grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
             {listTools.map((tool) => (
@@ -87,7 +84,7 @@ function App() {
           Proyek
         </h1>
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          Berikut ini
+          Berikut ini proyek yang pernah dibuat
         </p>
         <div className="proyek-box mt-14 grid md:grid-cols-3 lg:grid-cols-2 grid-cols-1 gap-4">
           {listProyek.map((proyek) => (
@@ -105,7 +102,7 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a href="#" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">
-                    Lihat website
+                    Lihat
                   </a>
                 </div>
               </div>
