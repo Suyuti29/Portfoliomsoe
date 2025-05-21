@@ -39,7 +39,7 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-1xl mb-1">
-                  5<span className="text-violet-500">+</span>
+                  6<span className="text-violet-500">+</span>
                   <p>Proyek Selesai</p>
                 </h1>
               </div>
@@ -101,9 +101,9 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  {/* <a href="#" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">
+                  <a href={proyek.link} target="_blank" rel="noopener noreferrer" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">
                     Lihat
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </div>

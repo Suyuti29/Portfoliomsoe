@@ -47,11 +47,36 @@ import Proyek2 from "/assets/proyek/blog.jpg";
 import Proyek3 from "/assets/proyek/cctv.jpg";
 import Proyek4 from "/assets/proyek/portfolio.jpg";
 import Proyek5 from "/assets/proyek/freelance.jpg";
+import Proyek6 from "/assets/proyek/github.jpg";
 
 export const listProyek = [
-  { id: 1, gambar: Proyek1, nama: "Youtube", desk: "Membuat konten edukatif dalam bentuk video tutorial sebagai sarana berbagi pengetahuan.", tools: ["Capcut", "Photoshop"], dad: "100" },
-  { id: 2, gambar: Proyek2, nama: "Blog", desk: "Blog pribadi yang saya kelola untuk membagikan artikel informatif dan pengalaman seputar  wawasan, tips, serta panduan yang bermanfaat.", tools: ["Wordpress", "Photoshop"], dad: "200" },
-  { id: 3, gambar: Proyek3, nama: "Instalasi CCTV Analog", desk: "Melakukan instalasi sistem CCTV analog untuk kebutuhan keamanan di area lingkungan rumah.", tools: ["DVR", "Kamera CCTV"], dad: "300" },
+  {
+    id: 1,
+    gambar: Proyek1,
+    nama: "Youtube",
+    desk: "Membuat konten edukatif dalam bentuk video tutorial sebagai sarana berbagi pengetahuan.",
+    tools: ["Capcut", "Photoshop"],
+    dad: "100",
+    link: "https://www.youtube.com/@m.suyuti210",
+  },
+  {
+    id: 2,
+    gambar: Proyek2,
+    nama: "Blog",
+    desk: "Blog pribadi yang saya kelola untuk membagikan artikel informatif dan pengalaman seputar  wawasan, tips, serta panduan yang bermanfaat.",
+    tools: ["Wordpress", "Photoshop"],
+    dad: "200",
+    link: "https://ceridi8.wordpress.com/",
+  },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Instalasi CCTV Analog",
+    desk: "Melakukan instalasi sistem CCTV analog untuk kebutuhan keamanan di area lingkungan rumah.",
+    tools: ["DVR", "Kamera CCTV"],
+    dad: "300",
+    link: "https://youtube.com/playlist?list=PLCNWup2TY7NnKXZec3yCp7Q4M_rI7zo51&si=MhH2m-hgwSwK8_lL",
+  },
   {
     id: 4,
     gambar: Proyek4,
@@ -59,7 +84,7 @@ export const listProyek = [
     desk: "Membangun web portfolio pribadi sebagai media untuk menampilkan proyek dan keahlian yang saya miliki.",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap", "Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "400",
-    // link: "https://github.com/Suyuti29"
+    link: "https://suyuti29.github.io/Portfoliomsoe/",
   },
   {
     id: 5,
@@ -68,17 +93,15 @@ export const listProyek = [
     desk: "Melakukan pekerjaan freelance sebagai IT Support untuk instalasi dan konfigurasi perangkat Robustel GSM di Kantor Pos Mall Pelayanan Publik Kota Cilegon.",
     tools: ["Fortinet Client", "Anydesk"],
     dad: "500",
+    link: "#beranda",
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Github",
+    desk: "Tempat menyimpan projek code yang sudah dibuat selama belajar web developer.",
+    tools: ["Vs Code", "HTML", "CSS", "Javascript", "Bootsrap", "Vite", "ReactJS", "Bootstrap", "AOS", "Arduino Uno"],
+    dad: "600",
+    link: "https://github.com/Suyuti29",
   },
 ];
-
-{
-  /* <a href={proyek.link} target="_blank" rel="noopener noreferrer">
-  <img src={proyek.gambar} alt={proyek.nama} />
-  <h3>{proyek.nama}</h3>
-</a>
-<h3>
-  <a href={proyek.link} target="_blank" rel="noopener noreferrer">
-    {proyek.nama}
-  </a>
-</h3> */
-}
