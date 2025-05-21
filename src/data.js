@@ -59,6 +59,7 @@ export const listProyek = [
     desk: "Membangun web portfolio pribadi sebagai media untuk menampilkan proyek dan keahlian yang saya miliki.",
     tools: ["HTML", "CSS", "Javascript", "Bootsrap", "Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "400",
+    // link: "https://github.com/Suyuti29"
   },
   {
     id: 5,
@@ -69,3 +70,15 @@ export const listProyek = [
     dad: "500",
   },
 ];
+
+{
+  /* <a href={proyek.link} target="_blank" rel="noopener noreferrer">
+  <img src={proyek.gambar} alt={proyek.nama} />
+  <h3>{proyek.nama}</h3>
+</a>
+<h3>
+  <a href={proyek.link} target="_blank" rel="noopener noreferrer">
+    {proyek.nama}
+  </a>
+</h3> */
+}

@@ -22,7 +22,7 @@ function App() {
             </a>
           </div>
         </div>
-        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] rounded-4xl md:ml-auto animate__animated animate__fadeInUp animate__delay-4s " />
+        <img src={DataImage.HeroImage} alt="Hero Image" className="w-[500px] rounded-4xl md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" />
       </div>
       {/*End Hero Section  */}
 
@@ -101,9 +101,9 @@ function App() {
                   ))}
                 </div>
                 <div className="mt-8 text-center">
-                  <a href="#" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">
+                  {/* <a href="#" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">
                     Lihat
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
