@@ -31,7 +31,7 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
-            Hai perkenalkan Saya Muhammad suyuti, lulusan Universitas Serang Raya Tahun 2018. Memiliki pengalaman kerja selama 3–4 tahun di berbagai bidang industri manufaktur alas kaki, dengan pemahaman mendalam terhadap proses perencanaan
+            Hai perkenalkan Saya Muhammad suyuti, lulusan Universitas Serang Raya Tahun 2018. Memiliki pengalaman kerja selama ± 4 tahun di berbagai bidang industri manufaktur alas kaki, dengan pemahaman mendalam terhadap proses perencanaan
             produksi, kontrol kualitas dan pengelolaan admin dibidang logistik. Selain itu, aktif sebagai freelance IT Support, menangani instalasi jaringan, perakitan dan perbaikan perangkat komputer, serta troubleshooting sistem.
           </p>
           <div className="flex items-center justify-between">
@@ -39,7 +39,7 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-1xl mb-1">
-                  6<span className="text-violet-500">+</span>
+                  7<span className="text-violet-500">+</span>
                   <p>Proyek Selesai</p>
                 </h1>
               </div>
