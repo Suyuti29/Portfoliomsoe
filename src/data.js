@@ -48,6 +48,7 @@ import Proyek3 from "/assets/proyek/cctv.jpg";
 import Proyek4 from "/assets/proyek/portfolio.jpg";
 import Proyek5 from "/assets/proyek/freelance.jpg";
 import Proyek6 from "/assets/proyek/github.jpg";
+import Proyek7 from "/assets/proyek/dagusto.png";
 
 export const listProyek = [
   {
@@ -103,5 +104,14 @@ export const listProyek = [
     tools: ["Vs Code", "HTML", "CSS", "Javascript", "Bootsrap", "Vite", "ReactJS", "Bootstrap", "AOS", "Arduino Uno"],
     dad: "600",
     link: "https://github.com/Suyuti29",
+  },
+  {
+    id: 7,
+    gambar: Proyek7,
+    nama: "Animasi",
+    desk: "Editor audio dan video youtube dagusto_animation.",
+    tools: ["Adobe audition", "Canva", "Capcut"],
+    dad: "700",
+    link: "https://www.youtube.com/@dagusto_animation",
   },
 ];
