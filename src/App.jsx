@@ -15,7 +15,7 @@ function App() {
           <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
-              Download CV <i className="ri-download-line ri-lg"></i>
+              Download CVv <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
               Lihat Proyek<i class="ri-arrow-down-line ri-lg"></i>
