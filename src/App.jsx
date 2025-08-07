@@ -63,7 +63,7 @@ function App() {
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
           {/* Gambar di Kiri */}
           <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <img src={DataImage.FreelanceeImage} alt="Design" className="w-80 md:w-96" />
             <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
               <span className="text-yellow-400 text-lg font-bold">Freelance</span>
               <p className="text-sm text-gray-200 font-bold">IT</p>
@@ -86,7 +86,7 @@ function App() {
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
           {/* Gambar di Kiri */}
           <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <img src={DataImage.QualityImage} alt="Design" className="w-80 md:w-96" />
             <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
               <span className="text-yellow-400 text-lg font-bold">Quality</span>
               <p className="text-sm text-gray-200 font-bold">Control</p>
@@ -109,7 +109,7 @@ function App() {
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
           {/* Gambar di Kiri */}
           <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <img src={DataImage.PlanImage} alt="Design" className="w-80 md:w-96" />
             <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
               <span className="text-yellow-400 text-lg font-bold">Staff</span>
               <p className="text-sm text-gray-200 font-bold">Planning</p>

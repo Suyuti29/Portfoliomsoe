@@ -1,8 +1,15 @@
 import HeroImage from "/assets/profile.webp";
+import FreelanceeImage from "/assets/proyek/freelancee.png";
+import QualityImage from "/assets/proyek/quality.jpg";
+import PlanImage from "/assets/proyek/plan.jpg";
 
 const Image = {
   HeroImage,
+  FreelanceeImage,
+  QualityImage,
+  PlanImage,
 };
+
 
 export default Image;
 
