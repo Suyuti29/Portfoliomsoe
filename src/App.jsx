@@ -57,140 +57,126 @@ function App() {
 
       {/* Pengalaman Section  */}
       <div className="proyek mt-20 " id="pengalaman">
-          <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-              Pengalaman Kerja
-          </h1>
-              <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-                {/* Gambar di Kiri */}
-                <div className="relative mb-12 md:mb-0 md:mr-12">
-                  <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
-                  <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-                    <span className="text-yellow-400 text-lg font-bold">Freelance</span>
-                    <p className="text-sm text-gray-200 font-bold">IT</p>
-                  </div>
-                </div>
+        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+          Pengalaman Kerja
+        </h1>
+        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+          {/* Gambar di Kiri */}
+          <div className="relative mb-12 md:mb-0 md:mr-12">
+            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
+              <span className="text-yellow-400 text-lg font-bold">Freelance</span>
+              <p className="text-sm text-gray-200 font-bold">IT</p>
+            </div>
+          </div>
 
-                {/* Teks di Kanan */}
-                <div className="max-w-lg">
-                  <p className="text-gray-400 uppercase text-sm tracking-widest">Freelance</p>
-                  <h1 className="text-5xl font-bold mt-4 leading-tight">
-                    Freelance <span className="text-blue-400"> IT </span>
-                  </h1>
-                  <p className="mt-6 text-gray-300 leading-relaxed">
-                   Instalasi    perangkat  modem   robustel  di  PT.  Pos  Indonesia  untuk  keperluan  administrasi,  
-                   pemasangan dan konfigurasi cctv analog untuk berbagai klien,  instalasi dan konfigurasi  sistem   operasi   komputer,   
-                   baik  windows  maupun  linux,   perbaikan hardware  dan  troubleshooting    laptop    serta   komputer,  editor   
-                   audio   video   channel   youtube  dagusto_animation
-                  </p>
-                  <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">
-                    Lihat →
-                  </button>
-                </div>
-              </section>
-              <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-                {/* Gambar di Kiri */}
-                <div className="relative mb-12 md:mb-0 md:mr-12">
-                  <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
-                  <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-                    <span className="text-yellow-400 text-lg font-bold">Quality</span>
-                    <p className="text-sm text-gray-200 font-bold">Control</p>
-                  </div>
-                </div>
+          {/* Teks di Kanan */}
+          <div className="max-w-lg">
+            <p className="text-gray-400 uppercase text-sm tracking-widest">Freelance</p>
+            <h1 className="text-5xl font-bold mt-4 leading-tight">
+              Freelance <span className="text-blue-400"> IT </span>
+            </h1>
+            <p className="mt-6 text-gray-300 leading-relaxed">
+              Instalasi perangkat modem robustel di PT. Pos Indonesia untuk keperluan administrasi, pemasangan dan konfigurasi cctv analog untuk berbagai klien, instalasi dan konfigurasi sistem operasi komputer, baik windows maupun linux,
+              perbaikan hardware dan troubleshooting laptop serta komputer, editor audio video channel youtube dagusto_animation
+            </p>
+            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
+          </div>
+        </section>
+        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+          {/* Gambar di Kiri */}
+          <div className="relative mb-12 md:mb-0 md:mr-12">
+            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
+              <span className="text-yellow-400 text-lg font-bold">Quality</span>
+              <p className="text-sm text-gray-200 font-bold">Control</p>
+            </div>
+          </div>
 
-                {/* Teks di Kanan */}
-                <div className="max-w-lg">
-                  <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Adis Dimension Footwear</p>
-                  <h1 className="text-5xl font-bold mt-4 leading-tight">
-                    Quality <span className="text-blue-400">Control</span>
-                  </h1>
-                  <p className="mt-6 text-gray-300 leading-relaxed">
-                    Melakukan inspeksi kualitas produk pada setiap tahap produksi untuk memastikan standar mutu terpenuhi. 
-                    Berkoordinasi dengan tim produksi dan divisi terkait dalam menangani temuan serta melakukan tindakan perbaikan. 
-                    Menyusun laporan hasil inspeksi secara detail, termasuk analisis penyebab masalah dan memberikan rekomendasi 
-                    peningkatan efisiensi proses produksi
-                  </p>
-                  <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">
-                    Lihat →
-                  </button>
-                </div>
-              </section>
-              <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-                {/* Gambar di Kiri */}
-                <div className="relative mb-12 md:mb-0 md:mr-12">
-                  <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
-                  <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-                    <span className="text-yellow-400 text-lg font-bold">Staff</span>
-                    <p className="text-sm text-gray-200 font-bold">Planning</p>
-                  </div>
-                </div>
+          {/* Teks di Kanan */}
+          <div className="max-w-lg">
+            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Adis Dimension Footwear</p>
+            <h1 className="text-5xl font-bold mt-4 leading-tight">
+              Quality <span className="text-blue-400">Control</span>
+            </h1>
+            <p className="mt-6 text-gray-300 leading-relaxed">
+              Melakukan inspeksi kualitas produk pada setiap tahap produksi untuk memastikan standar mutu terpenuhi. Berkoordinasi dengan tim produksi dan divisi terkait dalam menangani temuan serta melakukan tindakan perbaikan. Menyusun
+              laporan hasil inspeksi secara detail, termasuk analisis penyebab masalah dan memberikan rekomendasi peningkatan efisiensi proses produksi
+            </p>
+            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
+          </div>
+        </section>
+        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+          {/* Gambar di Kiri */}
+          <div className="relative mb-12 md:mb-0 md:mr-12">
+            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
+              <span className="text-yellow-400 text-lg font-bold">Staff</span>
+              <p className="text-sm text-gray-200 font-bold">Planning</p>
+            </div>
+          </div>
 
-                {/* Teks di Kanan */}
-                <div className="max-w-lg">
-                  <p className="text-gray-400 uppercase text-sm tracking-widest">PT. POU CHEN INDONESIA</p>
-                  <h1 className="text-5xl font-bold mt-4 leading-tight">
-                    Staff <span className="text-blue-400">Planning</span>
-                  </h1>
-                  <p className="mt-6 text-gray-300 leading-relaxed">
-                    Mengelola data dan administrasi pemesanan (PO) melalui sistem SAP, termasuk penanganan invoice dan administrasi keuangan. 
-                    Mengurus dokumen bea cukai (BC) saat barang datang, melakukan pemeriksaan kondisi barang untuk memastikan kesesuaian dengan invoice 
-                    dan packing list. Berkoordinasi dan menjalin komunikasi dengan supplier atau vendor terkait pemesanan dan penerimaan barang. Selain itu, 
-                    bertanggung jawab dalam pengelolaan aset perusahaan, termasuk persiapan dan pendataan untuk keperluan audit bulanan maupun tahunan
-                  </p>
-                  <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">
-                    Lihat →
-                  </button>
-                </div>
-              </section>
-              <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-                {/* Gambar di Kiri */}
-                <div className="relative mb-12 md:mb-0 md:mr-12">
-                  <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
-                  <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-                    <span className="text-yellow-400 text-lg font-bold">Admin</span>
-                    <p className="text-sm text-gray-200 font-bold">Logistik</p>
-                  </div>
-                </div>
+          {/* Teks di Kanan */}
+          <div className="max-w-lg">
+            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. POU CHEN INDONESIA</p>
+            <h1 className="text-5xl font-bold mt-4 leading-tight">
+              Staff <span className="text-blue-400">Planning</span>
+            </h1>
+            <p className="mt-6 text-gray-300 leading-relaxed">
+              Mengelola data dan administrasi pemesanan (PO) melalui sistem SAP, termasuk penanganan invoice dan administrasi keuangan. Mengurus dokumen bea cukai (BC) saat barang datang, melakukan pemeriksaan kondisi barang untuk
+              memastikan kesesuaian dengan invoice dan packing list. Berkoordinasi dan menjalin komunikasi dengan supplier atau vendor terkait pemesanan dan penerimaan barang. Selain itu, bertanggung jawab dalam pengelolaan aset perusahaan,
+              termasuk persiapan dan pendataan untuk keperluan audit bulanan maupun tahunan
+            </p>
+            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
+          </div>
+        </section>
+        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+          {/* Gambar di Kiri */}
+          <div className="relative mb-12 md:mb-0 md:mr-12">
+            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
+              <span className="text-yellow-400 text-lg font-bold">Admin</span>
+              <p className="text-sm text-gray-200 font-bold">Logistik</p>
+            </div>
+          </div>
 
-                {/* Teks di Kanan */}
-                <div className="max-w-lg">
-                  <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Ciomas Adisatwa</p>
-                  <h1 className="text-5xl font-bold mt-4 leading-tight">
-                    Admin <span className="text-blue-400">Logistik</span>
-                  </h1>
-                  <p className="mt-6 text-gray-300 leading-relaxed">
-                    Mencatat pemesanan spartpart kendaraan operasional, barang keperluan kantor. Serta disetiap harinya rutin mengecek 
-                    ketersediaan stok logistik berupa bensin dan solar untuk mobilitas kendaraan yang digunakan oleh perusahaan
-                  </p>
-                  <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">
-                    Lihat →
-                  </button>
-                </div>
-              </section>
+          {/* Teks di Kanan */}
+          <div className="max-w-lg">
+            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Ciomas Adisatwa</p>
+            <h1 className="text-5xl font-bold mt-4 leading-tight">
+              Admin <span className="text-blue-400">Logistik</span>
+            </h1>
+            <p className="mt-6 text-gray-300 leading-relaxed">
+              Mencatat pemesanan spartpart kendaraan operasional, barang keperluan kantor. Serta disetiap harinya rutin mengecek ketersediaan stok logistik berupa bensin dan solar untuk mobilitas kendaraan yang digunakan oleh perusahaan
+            </p>
+            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
+          </div>
+        </section>
       </div>
       {/*End Pengalaman Section  */}
 
-       {/* Tool */}
-        <div className="tools mt-32" id="tool">
-          <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            Software dan Tools
-          </h1>
-          <p className="w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            {/* xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full  */}
-            Berikut ini software dan tools yang dipakai dalam melakukan pekerjaan
-          </p>
-          <div className="tools-box mt-14 grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-            {listTools.map((tool) => (
-              <div className="flex item-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group">
-                <img src={tool.gambar} alt="Tools image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} />
-                <div>
-                  <h4 className="font-bold">{tool.nama}</h4>
-                  <p className="opacity-50">{tool.ket}</p>
-                </div>
+      {/* Tool */}
+      <div className="tools mt-32" id="tool">
+        <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+          Software dan Tools
+        </h1>
+        <p className="w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          {/* xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full  */}
+          Berikut ini software dan tools yang dipakai dalam melakukan pekerjaan
+        </p>
+        <div className="tools-box mt-14 grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+          {listTools.map((tool) => (
+            <div className="flex item-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group">
+              <img src={tool.gambar} alt="Tools image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} />
+              <div>
+                <h4 className="font-bold">{tool.nama}</h4>
+                <p className="opacity-50">{tool.ket}</p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
-        {/* End Tool */}
+      </div>
+      {/* End Tool */}
 
       {/* Proyek Section */}
       <div className="proyek mt-32 py-19" id="proyek">
@@ -257,6 +243,15 @@ function App() {
         </div>
       </form>
       {/* End Kontak Section */}
+
+      {/* Floating WhatsApp Button with Image */}
+      <a href="https://wa.me/6287883844747" target="_blank" class="fixed bottom-5 right-5 z-50 hover:bg-blue-600 p-3 rounded-full shadow-lg hover:scale-110 transition-transform duration-200">
+        <span class="[&>svg]:h-7 [&>svg]:w-7 [&>svg]:fill-[#2930f0] block">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512">
+            <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+          </svg>
+        </span>
+      </a>
     </>
   );
 }

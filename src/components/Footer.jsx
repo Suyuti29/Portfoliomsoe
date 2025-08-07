@@ -8,12 +8,16 @@ const Footer = () => {
         <a href="#beranda" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
           Beranda
         </a>
-        <a href="#proyek" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
-          Proyek
+        <a href="#pengalaman" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
+          Pengalaman
         </a>
         <a href="#tool" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
           Tools
         </a>
+        <a href="#proyek" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
+          Proyek
+        </a>
+
         <a href="#kontak" className="sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-zinc-600 hover:text-white transition duration-300 block">
           Kontak
         </a>
