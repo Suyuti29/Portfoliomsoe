@@ -15,7 +15,7 @@ function App() {
           <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
-              Download CV <i className="ri-download-line ri-lg"></i>
+              Lihat CV <i className="ri-arrow-down-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
               Lihat Proyek<i class="ri-arrow-down-line ri-lg"></i>
@@ -80,7 +80,6 @@ function App() {
               Instalasi perangkat modem robustel di PT. Pos Indonesia untuk keperluan administrasi, pemasangan dan konfigurasi cctv analog untuk berbagai klien, instalasi dan konfigurasi sistem operasi komputer, baik windows maupun linux,
               perbaikan hardware dan troubleshooting laptop serta komputer, editor audio video channel youtube dagusto_animation
             </p>
-            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
           </div>
         </section>
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
@@ -103,7 +102,6 @@ function App() {
               Melakukan inspeksi kualitas produk pada setiap tahap produksi untuk memastikan standar mutu terpenuhi. Berkoordinasi dengan tim produksi dan divisi terkait dalam menangani temuan serta melakukan tindakan perbaikan. Menyusun
               laporan hasil inspeksi secara detail, termasuk analisis penyebab masalah dan memberikan rekomendasi peningkatan efisiensi proses produksi
             </p>
-            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
           </div>
         </section>
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
@@ -127,13 +125,12 @@ function App() {
               memastikan kesesuaian dengan invoice dan packing list. Berkoordinasi dan menjalin komunikasi dengan supplier atau vendor terkait pemesanan dan penerimaan barang. Selain itu, bertanggung jawab dalam pengelolaan aset perusahaan,
               termasuk persiapan dan pendataan untuk keperluan audit bulanan maupun tahunan
             </p>
-            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
           </div>
         </section>
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
           {/* Gambar di Kiri */}
           <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.HeroImage} alt="Design" className="w-80 md:w-96" />
+            <img src={DataImage.AdminImage} alt="Design" className="w-80 md:w-96" />
             <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
               <span className="text-yellow-400 text-lg font-bold">Admin</span>
               <p className="text-sm text-gray-200 font-bold">Logistik</p>
@@ -149,7 +146,6 @@ function App() {
             <p className="mt-6 text-gray-300 leading-relaxed">
               Mencatat pemesanan spartpart kendaraan operasional, barang keperluan kantor. Serta disetiap harinya rutin mengecek ketersediaan stok logistik berupa bensin dan solar untuk mobilitas kendaraan yang digunakan oleh perusahaan
             </p>
-            <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat →</button>
           </div>
         </section>
       </div>
