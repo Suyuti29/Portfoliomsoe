@@ -10,6 +10,7 @@ import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
+import Freelance from "./components/Freelance.jsx";
 AOS.init();
 
 createRoot(document.getElementById("root")).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById("root")).render(
     <div className="container mx-auto px-4">
       <Navbar />
       <App />
+
       <Footer />
     </div>
   </StrictMode>

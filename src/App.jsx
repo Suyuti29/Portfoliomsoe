@@ -9,13 +9,13 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
-            <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang menganggur, Tapi harus tetap berkarya dong brur 🚀</p>
+            <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang bekerja, sebagai Teknisi IT di PT. Puterako Inti Buana </p>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">Hi, Saya Muhammad Suyuti</h1>
           <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
-              Lihat CV <i className="ri-arrow-down-line ri-lg"></i>
+              Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
               Lihat Proyek<i class="ri-arrow-down-line ri-lg"></i>
@@ -146,6 +146,9 @@ function App() {
             <p className="mt-6 text-gray-300 leading-relaxed">
               Mencatat pemesanan spartpart kendaraan operasional, barang keperluan kantor. Serta disetiap harinya rutin mengecek ketersediaan stok logistik berupa bensin dan solar untuk mobilitas kendaraan yang digunakan oleh perusahaan
             </p>
+            <a href="Freelance.jsx">
+              <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat</button>
+            </a>
           </div>
         </section>
       </div>
