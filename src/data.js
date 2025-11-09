@@ -1,18 +1,18 @@
 import HeroImage from "/assets/profile.webp";
+import TeknisiImage from "/assets/proyek/teknisi.jpg";
 import FreelanceeImage from "/assets/proyek/freelancee.png";
 import QualityImage from "/assets/proyek/quality.jpg";
 import PlanImage from "/assets/proyek/plan.jpg";
 import AdminImage from "/assets/proyek/admin.jpg";
 
-
 const Image = {
   HeroImage,
+  TeknisiImage,
   FreelanceeImage,
   QualityImage,
   PlanImage,
   AdminImage,
 };
-
 
 export default Image;
 

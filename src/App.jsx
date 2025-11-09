@@ -12,7 +12,7 @@ function App() {
             <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang bekerja, sebagai Teknisi IT di PT. Puterako Inti Buana </p>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">Hi, Saya Muhammad Suyuti</h1>
-          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
+          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Teknisi IT | Quality Control | Planning | IT Support | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
               Download CV <i className="ri-download-line ri-lg"></i>
@@ -30,10 +30,7 @@ function App() {
       <div className="tentang mt-32 py-10" id="tentang">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
-          <p className="text-base/loose mb-10">
-            Hai perkenalkan Saya Muhammad suyuti, lulusan Universitas Serang Raya Tahun 2018. Memiliki pengalaman kerja selama ± 4 tahun di berbagai bidang industri manufaktur alas kaki, dengan pemahaman mendalam terhadap proses perencanaan
-            produksi, kontrol kualitas dan pengelolaan admin dibidang logistik. Selain itu, aktif sebagai freelance IT Support, menangani instalasi jaringan, perakitan dan perbaikan perangkat komputer, serta troubleshooting sistem.
-          </p>
+          <p className="text-base/loose mb-10">Sedang berusaha mencari pendamping hidup yang mau bekerja sama membangun keluarga yang berlandasan kejujuran, kepercayaan dan yang paling penting peduli dengan kedua orang tua nya 🚀</p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
             <div className="flex items-center gap-6">
@@ -56,10 +53,34 @@ function App() {
       {/* End Tentang Section */}
 
       {/* Pengalaman Section  */}
-      <div className="proyek mt-20 " id="pengalaman">
+      <div className="proyek mt-32 " id="pengalaman">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           Pengalaman Kerja
         </h1>
+
+        <section className="text-white py-16 p-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+          {/* Gambar di Kiri */}
+          <div className="relative mb-12 md:mb-0 md:mr-12">
+            <img src={DataImage.TeknisiImage} alt="Design" className="w-80 md:w-96" />
+            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
+              <span className="text-yellow-400 text-lg font-bold">Teknisi</span>
+              <p className="text-sm text-gray-200 font-bold">IT</p>
+            </div>
+          </div>
+
+          {/* Teks di Kanan */}
+          <div className="max-w-lg">
+            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Puterako Inti Buana</p>
+            <h1 className="text-5xl font-bold mt-4 leading-tight">
+              Teknisi <span className="text-blue-400"> IT </span>
+            </h1>
+            <p className="mt-6 text-gray-300 leading-relaxed">
+              Bertanggung jawab dalam mengoptimalkan proses instalasi, terminasi, dan troubleshooting pada setiap proyek yang dikerjakan, termasuk melakukan service on call ke pelanggan untuk memastikan perangkat berfungsi dengan baik.
+              Selain itu, turut membuat laporan proyek sesuai pekerjaan yang telah diselesaikan, serta ditugaskan untuk melakukan uji coba dan evaluasi terhadap software custom yang baru diinstal guna memastikan sistem berjalan stabil
+              sebelum digunakan oleh pelanggan
+            </p>
+          </div>
+        </section>
         <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
           {/* Gambar di Kiri */}
           <div className="relative mb-12 md:mb-0 md:mr-12">
@@ -146,9 +167,6 @@ function App() {
             <p className="mt-6 text-gray-300 leading-relaxed">
               Mencatat pemesanan spartpart kendaraan operasional, barang keperluan kantor. Serta disetiap harinya rutin mengecek ketersediaan stok logistik berupa bensin dan solar untuk mobilitas kendaraan yang digunakan oleh perusahaan
             </p>
-            <a href="Freelance.jsx">
-              <button className="mt-8 px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-md shadow-md transition">Lihat</button>
-            </a>
           </div>
         </section>
       </div>
@@ -178,7 +196,7 @@ function App() {
       {/* End Tool */}
 
       {/* Proyek Section */}
-      <div className="proyek mt-32 py-19" id="proyek">
+      <div className="proyek mt-32 " id="proyek">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           Proyek
         </h1>
