@@ -9,10 +9,10 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" />
-            <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang bekerja, sebagai Teknisi IT di PT. Puterako Inti Buana </p>
+            <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang mencari pekerjaan freelance dan fulltime sebagai editor </p>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">Hi, Saya Muhammad Suyuti</h1>
-          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Teknisi IT | Quality Control | Planning | IT Support | Admin Logistik</p>
+          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Editor di Channel Youtube Dagusto_Animation dan Konten Kreator Youtube Pribadi</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-blue-500 p-4 rounded-2xl hover:bg-blue-700">
               Download CV <i className="ri-download-line ri-lg"></i>
@@ -30,7 +30,10 @@ function App() {
       <div className="tentang mt-32 py-10" id="tentang">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
-          <p className="text-base/loose mb-10">Sedang berusaha mencari pendamping hidup yang mau bekerja sama membangun keluarga yang berlandasan kejujuran, kepercayaan dan yang paling penting peduli dengan kedua orang tua nya 🚀</p>
+          <p className="text-base/loose mb-10">
+            Hi perkenalkan saya Muhammad Suyuti sedang mencari pekerjaan freelance dan fulltime sebagai editor video, Pengalaman sebagai editor video di channel youtube Dagusto_animation, peran saya baik sebagai editor video dan juga
+            sebagai editor suara. saya juga aktif sebagai konten kreator di youtube pribadi. video yang sudah saya upload sekita 284 video. saya rajin mengupload video panjang dan pendek disetiap minggunya{" "}
+          </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
             <div className="flex items-center gap-6">
@@ -51,149 +54,6 @@ function App() {
         </div>
       </div>
       {/* End Tentang Section */}
-
-      {/* Pengalaman Section  */}
-      <div className="proyek mt-32 " id="pengalaman">
-        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          Pengalaman Kerja
-        </h1>
-
-        <section className="text-white py-16 p-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-          {/* Gambar di Kiri */}
-          <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.TeknisiImage} alt="Design" className="w-80 md:w-96" />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-              <span className="text-yellow-400 text-lg font-bold">Teknisi</span>
-              <p className="text-sm text-gray-200 font-bold">IT</p>
-            </div>
-          </div>
-
-          {/* Teks di Kanan */}
-          <div className="max-w-lg">
-            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Puterako Inti Buana</p>
-            <h1 className="text-5xl font-bold mt-4 leading-tight">
-              Teknisi <span className="text-blue-400"> IT </span>
-            </h1>
-            <p className="mt-6 text-gray-300 leading-relaxed">
-              Bertanggung jawab dalam mengoptimalkan proses instalasi, terminasi, dan troubleshooting pada setiap proyek yang dikerjakan, termasuk melakukan service on call ke pelanggan untuk memastikan perangkat berfungsi dengan baik.
-              Selain itu, turut membuat laporan proyek sesuai pekerjaan yang telah diselesaikan, serta ditugaskan untuk melakukan uji coba dan evaluasi terhadap software custom yang baru diinstal guna memastikan sistem berjalan stabil
-              sebelum digunakan oleh pelanggan
-            </p>
-          </div>
-        </section>
-        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-          {/* Gambar di Kiri */}
-          <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.FreelanceeImage} alt="Design" className="w-80 md:w-96" />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-              <span className="text-yellow-400 text-lg font-bold">Freelance</span>
-              <p className="text-sm text-gray-200 font-bold">IT</p>
-            </div>
-          </div>
-
-          {/* Teks di Kanan */}
-          <div className="max-w-lg">
-            <p className="text-gray-400 uppercase text-sm tracking-widest">Freelance</p>
-            <h1 className="text-5xl font-bold mt-4 leading-tight">
-              Freelance <span className="text-blue-400"> IT </span>
-            </h1>
-            <p className="mt-6 text-gray-300 leading-relaxed">
-              Instalasi perangkat modem robustel di PT. Pos Indonesia untuk keperluan administrasi, pemasangan dan konfigurasi cctv analog untuk berbagai klien, instalasi dan konfigurasi sistem operasi komputer, baik windows maupun linux,
-              perbaikan hardware dan troubleshooting laptop serta komputer, editor audio video channel youtube dagusto_animation
-            </p>
-          </div>
-        </section>
-        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-          {/* Gambar di Kiri */}
-          <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.QualityImage} alt="Design" className="w-80 md:w-96" />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-              <span className="text-yellow-400 text-lg font-bold">Quality</span>
-              <p className="text-sm text-gray-200 font-bold">Control</p>
-            </div>
-          </div>
-
-          {/* Teks di Kanan */}
-          <div className="max-w-lg">
-            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Adis Dimension Footwear</p>
-            <h1 className="text-5xl font-bold mt-4 leading-tight">
-              Quality <span className="text-blue-400">Control</span>
-            </h1>
-            <p className="mt-6 text-gray-300 leading-relaxed">
-              Melakukan inspeksi kualitas produk pada setiap tahap produksi untuk memastikan standar mutu terpenuhi. Berkoordinasi dengan tim produksi dan divisi terkait dalam menangani temuan serta melakukan tindakan perbaikan. Menyusun
-              laporan hasil inspeksi secara detail, termasuk analisis penyebab masalah dan memberikan rekomendasi peningkatan efisiensi proses produksi
-            </p>
-          </div>
-        </section>
-        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-          {/* Gambar di Kiri */}
-          <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.PlanImage} alt="Design" className="w-80 md:w-96" />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-              <span className="text-yellow-400 text-lg font-bold">Staff</span>
-              <p className="text-sm text-gray-200 font-bold">Planning</p>
-            </div>
-          </div>
-
-          {/* Teks di Kanan */}
-          <div className="max-w-lg">
-            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. POU CHEN INDONESIA</p>
-            <h1 className="text-5xl font-bold mt-4 leading-tight">
-              Staff <span className="text-blue-400">Planning</span>
-            </h1>
-            <p className="mt-6 text-gray-300 leading-relaxed">
-              Mengelola data dan administrasi pemesanan (PO) melalui sistem SAP, termasuk penanganan invoice dan administrasi keuangan. Mengurus dokumen bea cukai (BC) saat barang datang, melakukan pemeriksaan kondisi barang untuk
-              memastikan kesesuaian dengan invoice dan packing list. Berkoordinasi dan menjalin komunikasi dengan supplier atau vendor terkait pemesanan dan penerimaan barang. Selain itu, bertanggung jawab dalam pengelolaan aset perusahaan,
-              termasuk persiapan dan pendataan untuk keperluan audit bulanan maupun tahunan
-            </p>
-          </div>
-        </section>
-        <section className="text-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
-          {/* Gambar di Kiri */}
-          <div className="relative mb-12 md:mb-0 md:mr-12">
-            <img src={DataImage.AdminImage} alt="Design" className="w-80 md:w-96" />
-            <div className="absolute bottom-4 left-4 bg-black bg-opacity-70 px-4 py-2 rounded-lg flex items-center gap-2">
-              <span className="text-yellow-400 text-lg font-bold">Admin</span>
-              <p className="text-sm text-gray-200 font-bold">Logistik</p>
-            </div>
-          </div>
-
-          {/* Teks di Kanan */}
-          <div className="max-w-lg">
-            <p className="text-gray-400 uppercase text-sm tracking-widest">PT. Ciomas Adisatwa</p>
-            <h1 className="text-5xl font-bold mt-4 leading-tight">
-              Admin <span className="text-blue-400">Logistik</span>
-            </h1>
-            <p className="mt-6 text-gray-300 leading-relaxed">
-              Mencatat pemesanan spartpart kendaraan operasional, barang keperluan kantor. Serta disetiap harinya rutin mengecek ketersediaan stok logistik berupa bensin dan solar untuk mobilitas kendaraan yang digunakan oleh perusahaan
-            </p>
-          </div>
-        </section>
-      </div>
-      {/*End Pengalaman Section  */}
-
-      {/* Tool */}
-      <div className="tools mt-32" id="tool">
-        <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          Software dan Tools
-        </h1>
-        <p className="w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          {/* xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full  */}
-          Berikut ini software dan tools yang dipakai dalam melakukan pekerjaan
-        </p>
-        <div className="tools-box mt-14 grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-          {listTools.map((tool) => (
-            <div className="flex item-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group">
-              <img src={tool.gambar} alt="Tools image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} />
-              <div>
-                <h4 className="font-bold">{tool.nama}</h4>
-                <p className="opacity-50">{tool.ket}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      {/* End Tool */}
 
       {/* Proyek Section */}
       <div className="proyek mt-32 " id="proyek">

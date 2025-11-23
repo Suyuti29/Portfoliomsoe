@@ -33,16 +33,6 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#pengalaman" className="sm:text-lg text-base font-medium px-1 py-2 rounded hover:bg-violet-600 hover:text-white transition duration-300 block">
-            Pengalaman
-          </a>
-        </li>
-          <li>
-          <a href="#tool" className="sm:text-lg text-base font-medium px-1 py-2 rounded hover:bg-violet-600 hover:text-white transition duration-300 block">
-            Tools
-          </a>
-        </li>
-        <li>
           <a href="#proyek" className="sm:text-lg text-base font-medium px-1 py-2 rounded hover:bg-violet-600 hover:text-white transition duration-300 block">
             Proyek
           </a>

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://suyuti29.github.io/Portfoliomsoe",
+  "homepage": "https://suyuti29.github.io/Portfolioeditor",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

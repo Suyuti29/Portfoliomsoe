@@ -53,11 +53,7 @@ export const listTools = [
 ];
 
 import Proyek1 from "/assets/proyek/youtube.jpg";
-import Proyek2 from "/assets/proyek/blog.jpg";
-import Proyek3 from "/assets/proyek/cctv.jpg";
 import Proyek4 from "/assets/proyek/portfolio.jpg";
-import Proyek5 from "/assets/proyek/freelance.jpg";
-import Proyek6 from "/assets/proyek/github.jpg";
 import Proyek7 from "/assets/proyek/dagusto.png";
 
 export const listProyek = [
@@ -71,24 +67,6 @@ export const listProyek = [
     link: "https://www.youtube.com/@m.suyuti210",
   },
   {
-    id: 2,
-    gambar: Proyek2,
-    nama: "Blog",
-    desk: "Blog pribadi yang saya kelola untuk membagikan artikel informatif dan pengalaman seputar  wawasan, tips, serta panduan yang bermanfaat.",
-    tools: ["Wordpress", "Photoshop"],
-    dad: "200",
-    link: "https://ceridi8.wordpress.com/",
-  },
-  {
-    id: 3,
-    gambar: Proyek3,
-    nama: "Instalasi CCTV Analog",
-    desk: "Melakukan instalasi sistem CCTV analog untuk kebutuhan keamanan di area lingkungan rumah.",
-    tools: ["DVR", "Kamera CCTV"],
-    dad: "300",
-    link: "https://youtube.com/playlist?list=PLCNWup2TY7NnKXZec3yCp7Q4M_rI7zo51&si=MhH2m-hgwSwK8_lL",
-  },
-  {
     id: 4,
     gambar: Proyek4,
     nama: "Web Portfolio",
@@ -96,24 +74,6 @@ export const listProyek = [
     tools: ["HTML", "CSS", "Javascript", "Bootsrap", "Vite", "ReactJS", "Bootstrap", "AOS"],
     dad: "400",
     link: "https://suyuti29.github.io/Portfoliomsoe/",
-  },
-  {
-    id: 5,
-    gambar: Proyek5,
-    nama: "Freelance",
-    desk: "Melakukan pekerjaan freelance sebagai IT Support untuk instalasi dan konfigurasi perangkat Robustel GSM di Kantor Pos Mall Pelayanan Publik Kota Cilegon.",
-    tools: ["Fortinet Client", "Anydesk"],
-    dad: "500",
-    link: "#beranda",
-  },
-  {
-    id: 6,
-    gambar: Proyek6,
-    nama: "Github",
-    desk: "Tempat menyimpan projek code yang sudah dibuat selama belajar web developer.",
-    tools: ["Vs Code", "HTML", "CSS", "Javascript", "Bootsrap", "Vite", "ReactJS", "Bootstrap", "AOS", "Arduino Uno"],
-    dad: "600",
-    link: "https://github.com/Suyuti29",
   },
   {
     id: 7,
