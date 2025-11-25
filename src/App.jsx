@@ -30,10 +30,7 @@ function App() {
       <div className="tentang mt-32 py-10" id="tentang">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
-          <p className="text-base/loose mb-10">
-            Hi perkenalkan saya Muhammad Suyuti sedang mencari pekerjaan freelance dan fulltime sebagai editor video, Pengalaman sebagai editor video di channel youtube Dagusto_animation, peran saya baik sebagai editor video dan juga
-            sebagai editor suara. saya juga aktif sebagai konten kreator di youtube pribadi. video yang sudah saya upload sekita 284 video. saya rajin mengupload video panjang dan pendek disetiap minggunya{" "}
-          </p>
+          <p className="text-base/loose mb-10">Sedang berusaha mencari pendamping hidup yang mau bekerja sama membangun keluarga yang berlandasan kejujuran, kepercayaan dan yang paling penting peduli dengan kedua orang tua nya 🚀</p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
             <div className="flex items-center gap-6">
