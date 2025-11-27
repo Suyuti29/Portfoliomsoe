@@ -15,7 +15,7 @@ function App() {
           <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
-              Download CVv <i className="ri-download-line ri-lg"></i>
+              Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
               Lihat Proyek<i class="ri-arrow-down-line ri-lg"></i>
@@ -31,8 +31,9 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
-            Hai perkenalkan Saya Muhammad suyuti, lulusan Universitas Serang Raya Tahun 2018. Memiliki pengalaman kerja selama ± 4 tahun di berbagai bidang industri manufaktur alas kaki, dengan pemahaman mendalam terhadap proses perencanaan
-            produksi, kontrol kualitas dan pengelolaan admin dibidang logistik. Selain itu, aktif sebagai freelance IT Support, menangani instalasi jaringan, perakitan dan perbaikan perangkat komputer, serta troubleshooting sistem.
+            Hai, perkenalkan saya Muhammad Suyuti, lulusan Universitas Serang Raya tahun 2018. Memiliki pengalaman kerja ±4 tahun di industri manufaktur alas kaki sebagai Quality Control, Planning, dan Admin Logistik, dengan pemahaman yang
+            baik terhadap proses produksi, pengendalian kualitas, serta pengelolaan dokumen dan material. Selain itu, saya aktif sebagai Freelance IT Support dan saat ini sedang bekerja sebagai Teknisi IT dalam proyek instalasi perangkat di
+            PT Nestlé Indonesia Karawang, yang semakin mengasah ketelitian, koordinasi, dan kemampuan pemecahan masalah. Saya siap berkontribusi sebagai Quality Control dengan kerja yang teliti, rapi, dan terstruktur
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
@@ -52,29 +53,6 @@ function App() {
             </div>
           </div>
         </div>
-
-        {/* Tool */}
-        <div className="tools mt-32" id="tool">
-          <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            Software dan Tools
-          </h1>
-          <p className="w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            {/* xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full  */}
-            Berikut ini software dan tools yang dipakai dalam melakukan pekerjaan
-          </p>
-          <div className="tools-box mt-14 grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
-            {listTools.map((tool) => (
-              <div className="flex item-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group">
-                <img src={tool.gambar} alt="Tools image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} />
-                <div>
-                  <h4 className="font-bold">{tool.nama}</h4>
-                  <p className="opacity-50">{tool.ket}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        {/* End Tool */}
       </div>
       {/* End Tentang Section */}
 
@@ -198,10 +176,33 @@ function App() {
       </div>
       {/*End Pengalaman Section  */}
 
+      {/* Tool */}
+      <div className="tools mt-32" id="tool">
+        <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+          Software dan Tools
+        </h1>
+        <p className="w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          {/* xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full  */}
+          Berikut ini software dan tools yang dipakai dalam melakukan pekerjaan
+        </p>
+        <div className="tools-box mt-14 grid  lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+          {listTools.map((tool) => (
+            <div className="flex item-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group">
+              <img src={tool.gambar} alt="Tools image" className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} />
+              <div>
+                <h4 className="font-bold">{tool.nama}</h4>
+                <p className="opacity-50">{tool.ket}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* End Tool */}
+
       {/* Proyek Section */}
       <div className="proyek mt-32 py-19" id="proyek">
         <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          Proyekkk
+          Proyek
         </h1>
         <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
           Berikut ini proyek yang pernah dibuat
