@@ -1,14 +1,20 @@
 const Footer = () => {
-  return (
-    <div className="w-full mt-32 py-6">
-      <div className="grid grid-cols-3 items-center">
-        {/* KIRI */}
-        <h1 className="justify-self-start text-2xl sm:text-xl font-medium px-1 py-1 rounded hover:bg-violet-600 hover:text-white transition duration-300">Portfolio</h1>
+return (
+    <footer className="w-full mt-32 py-8 px-4">
 
-        {/* TENGAH */}
+      {/* Desktop → 3 kolom */}
+      {/* Mobile → Stack / kolom */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-center md:text-left">
+
+        {/* KIRI – Portfolio */}
+        <h1 className="md:justify-self-start justify-self-center text-2xl sm:text-xl font-medium px-1 py-1 rounded hover:bg-violet-600 hover:text-white transition duration-300 cursor-pointer">
+          Portfolio
+        </h1>
+
+        {/* TENGAH – Icons */}
         <div className="flex justify-center items-center gap-4">
           <a href="https://github.com/Suyuti29" target="_blank">
-            <i className="ri-github-fill ri-2x sm:text-lg text-base font-medium px-1 py-1 rounded hover:bg-violet-600 hover:text-white transition duration-300"></i>
+            <i className="ri-github-fill ri-2x sm:text-lg text-base px-1 py-1 rounded hover:bg-violet-600 hover:text-white transition duration-300"></i>
           </a>
 
           <a href="https://www.linkedin.com/in/msuyuti210/" target="_blank">
@@ -24,10 +30,13 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* KANAN */}
-        <p className="justify-self-end text-gray-300">Copyright © 2025 Msuyuti</p>
+        {/* KANAN – Copyright */}
+        <p className="md:justify-self-end justify-self-center text-gray-300">
+          Copyright © 2025 Msuyuti
+        </p>
+
       </div>
-    </div>
+    </footer>
   );
 };
 // <div className="mt-32 py-4 flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center">
