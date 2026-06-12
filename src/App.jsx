@@ -273,6 +273,17 @@ function App() {
           </div>
         </div>
       </form>
+
+<a
+  href="https://wa.me/6287883844747"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-5 right-5 flex items-center gap-2 bg-violet-500 hover:bg-zinc-500 text-white px-4 py-3 rounded-full shadow-lg z-[9999]"
+>
+  <i className="ri-whatsapp-line text-2xl"></i>
+  <span>Chat Saya</span>
+</a>
+
       {/* End Kontak Section */}
     </>
   );

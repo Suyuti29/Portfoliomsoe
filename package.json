@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://suyuti29.github.io/Portfoliomsoe",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
