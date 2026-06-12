@@ -298,8 +298,32 @@ function App() {
           </div>
         </div>
       </form>
-
 <a
+  href="https://wa.me/6287883844747"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`fixed animate-pulse bg-violet-500 bottom-20 right-5 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg z-[9999] flex items-center overflow-hidden transition-all duration-500 ${
+    showWhatsapp
+      ? "px-4 py-3 gap-2"
+      : "w-14 h-14 justify-center"
+  }`}
+>
+  <i className="ri-whatsapp-line text-xl"></i>
+
+  <span
+    className={`whitespace-nowrap transition-all duration-300 ${
+      showWhatsapp
+        ? "opacity-100 max-w-[100px]"
+        : "opacity-0 max-w-0"
+    }`}
+  >
+    Chat Saya
+  </span>
+</a>
+
+
+
+{/* <a
   href="https://wa.me/6287883844747"
   target="_blank"
   rel="noopener noreferrer"
@@ -311,7 +335,7 @@ function App() {
 >
   <i className="ri-whatsapp-line text-2xl"></i>
   <span>Chat Saya</span>
-</a>
+</a> */}
 
       {/* End Kontak Section */}
     </>
