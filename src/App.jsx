@@ -12,7 +12,7 @@ function App() {
             <p className="text-1xl font-extrabold italic text-center text-amber-600 dark:text-amber-400 tracking-wide leading-relaxed drop-shadow-md">Sedang mencari pekerjaan baru 🚀</p>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">Hi, Saya Muhammad Suyuti</h1>
-          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai Quality Control | Planning | IT Support | Admin Logistik</p>
+          <p className="=text-base/loose mb-6 opacity-50">Pengalaman sebagai IT Support | Freelance IT | Quality Control | Planning | Admin Logistik</p>
           <div className="flex item-center sm:gap-4 gap-2">
             <a href="#kontak" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-500">
               Download CV <i className="ri-download-line ri-lg"></i>
