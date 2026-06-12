@@ -302,7 +302,7 @@ function App() {
   href="https://wa.me/6287883844747"
   target="_blank"
   rel="noopener noreferrer"
-  className={`fixed animate-pulse bg-violet-500 bottom-20 right-5 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg z-[9999] flex items-center overflow-hidden transition-all duration-500 ${
+  className={`fixed animate-pulse bg-violet-500 bottom-20 right-5 bg-violet-500 hover:bg-green-600 text-white rounded-full shadow-lg z-[9999] flex items-center overflow-hidden transition-all duration-500 ${
     showWhatsapp
       ? "px-4 py-3 gap-2"
       : "w-14 h-14 justify-center"
