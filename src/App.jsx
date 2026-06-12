@@ -1,8 +1,8 @@
-// import DataImage from "./data";
-// import { listTools, listProyek } from "./data"; data awal
 
 import { useEffect, useState } from "react";
 import DataImage, { listTools, listProyek } from "./data";
+import AIAssistant from "./components/AIAssistant";
+
 
 function App() {
     const [showWhatsapp, setShowWhatsapp] = useState(true);
@@ -277,6 +277,7 @@ function App() {
           Mari terhubung dengan saya
         </p>
       </div>
+
       <form action="https://formsubmit.co/mssuyuti29@gmail.com" method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-2">
@@ -298,46 +299,36 @@ function App() {
           </div>
         </div>
       </form>
-<a
-  href="https://wa.me/6287883844747"
-  target="_blank"
-  rel="noopener noreferrer"
-  className={`fixed animate-pulse bg-violet-500 bottom-20 right-5 bg-violet-500 hover:bg-green-600 text-white rounded-full shadow-lg z-[9999] flex items-center overflow-hidden transition-all duration-500 ${
-    showWhatsapp
-      ? "px-4 py-3 gap-2"
-      : "w-14 h-14 justify-center"
-  }`}
->
-  <i className="ri-whatsapp-line text-xl"></i>
 
-  <span
-    className={`whitespace-nowrap transition-all duration-300 ${
-      showWhatsapp
-        ? "opacity-100 max-w-[100px]"
-        : "opacity-0 max-w-0"
-    }`}
-  >
-    Chat Saya
-  </span>
-</a>
+      <a
+        href="https://wa.me/6287883844747"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`fixed animate-pulse bg-violet-500 
+          bottom-20 right-5 bg-violet-500
+           hover:bg-green-600 text-white rounded-full shadow-lg z-[9999] flex items-center overflow-hidden transition-all duration-500 ${
+          showWhatsapp
+            ? "px-4 py-3 gap-2"
+            : "w-14 h-14 justify-center"
+        }`}
+      >
+        <i className="ri-whatsapp-line text-xl"></i>
 
-
-
-{/* <a
-  href="https://wa.me/6287883844747"
-  target="_blank"
-  rel="noopener noreferrer"
-  className={`fixed bottom-20 right-5 flex items-center gap-2 bg-violet-500 hover:bg-zinc-500 text-white px-4 py-3 rounded-full shadow-lg z-[9999] transition-all duration-500 ${
-    showWhatsapp
-      ? "opacity-100 translate-y-0"
-      : "opacity-0 translate-y-5"
-  }`}
->
-  <i className="ri-whatsapp-line text-2xl"></i>
-  <span>Chat Saya</span>
-</a> */}
+        <span
+          className={`whitespace-nowrap transition-all duration-300 ${
+            showWhatsapp
+              ? "opacity-100 max-w-[100px]"
+              : "opacity-0 max-w-0"
+          }`}
+        >
+          Chat Saya
+        </span>
+      </a>
 
       {/* End Kontak Section */}
+
+      <AIAssistant />
+
     </>
   );
 }
