@@ -1,7 +1,32 @@
-import DataImage from "./data";
-import { listTools, listProyek } from "./data";
+// import DataImage from "./data";
+// import { listTools, listProyek } from "./data"; data awal
+
+import { useEffect, useState } from "react";
+import DataImage, { listTools, listProyek } from "./data";
 
 function App() {
+    const [showWhatsapp, setShowWhatsapp] = useState(true);
+
+     useEffect(() => {
+    let timeout;
+
+    const handleScroll = () => {
+      setShowWhatsapp(false);
+
+      clearTimeout(timeout);
+
+      timeout = setTimeout(() => {
+        setShowWhatsapp(true);
+      }, 1000);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       {/* Hero Section  */}
@@ -18,7 +43,7 @@ function App() {
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-500">
-              Lihat Proyek<i class="ri-arrow-down-line ri-lg"></i>
+              Lihat Proyek<i className="ri-arrow-down-line ri-lg"></i>
             </a>
           </div>
         </div>
@@ -278,7 +303,11 @@ function App() {
   href="https://wa.me/6287883844747"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed bottom-5 right-5 flex items-center gap-2 bg-violet-500 hover:bg-zinc-500 text-white px-4 py-3 rounded-full shadow-lg z-[9999]"
+  className={`fixed bottom-20 right-5 flex items-center gap-2 bg-violet-500 hover:bg-zinc-500 text-white px-4 py-3 rounded-full shadow-lg z-[9999] transition-all duration-500 ${
+    showWhatsapp
+      ? "opacity-100 translate-y-0"
+      : "opacity-0 translate-y-5"
+  }`}
 >
   <i className="ri-whatsapp-line text-2xl"></i>
   <span>Chat Saya</span>

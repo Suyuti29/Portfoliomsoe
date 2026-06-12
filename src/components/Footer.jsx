@@ -32,7 +32,7 @@ return (
 
         {/* KANAN – Copyright */}
         <p className="md:justify-self-end justify-self-center text-gray-300">
-          Copyright © 2025 Msuyuti
+          Copyright © 2026 Msuyuti
         </p>
 
       </div>
