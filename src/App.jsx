@@ -31,9 +31,19 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" />
           <p className="text-base/loose mb-10">
-            Hai, perkenalkan saya Muhammad Suyuti, lulusan Universitas Serang Raya tahun 2018. Memiliki pengalaman kerja ±4 tahun di industri manufaktur alas kaki sebagai Quality Control, Planning, dan Admin Logistik, dengan pemahaman yang
-            baik terhadap proses produksi, pengendalian kualitas, serta pengelolaan dokumen dan material. Selain itu, saya aktif sebagai Freelance IT Support dan saat ini sedang bekerja sebagai Teknisi IT dalam proyek instalasi perangkat di
-            PT Nestlé Indonesia Karawang, yang semakin mengasah ketelitian, koordinasi, dan kemampuan pemecahan masalah. Saya siap berkontribusi sebagai Quality Control dengan kerja yang teliti, rapi, dan terstruktur
+            Hai, perkenalkan saya Muhammad Suyuti, lulusan S1 Rekayasa Sistem Komputer Universitas Serang Raya tahun 
+            2018. Saya memiliki pengalaman sebagai Teknisi IT dalam berbagai proyek instalasi dan maintenance perangkat 
+            IT untuk perusahaan seperti PT Nestlé Indonesia Karawang, PT Sika Indonesia (Cikarang dan Cileungsi), 
+            PT United Can Company Ltd Tangerang, dan PT Inchcape Manufacturing Indonesia. Dalam pekerjaan tersebut 
+            saya terbiasa melakukan instalasi perangkat, troubleshooting, pemeliharaan sistem, koordinasi dengan user, 
+            serta penyusunan laporan pekerjaan.
+
+            Selain itu, saya juga memiliki pengalaman lebih dari empat tahun di industri manufaktur 
+            alas kaki sebagai Quality Control, Planning, dan Admin Logistik. Saya terbiasa menangani perencanaan 
+            material, pengendalian kualitas produk, administrasi logistik, pengelolaan dokumen, serta inventaris 
+            aset perusahaan. Kombinasi pengalaman teknis dan operasional tersebut membentuk kemampuan saya dalam bekerja 
+            secara teliti, terstruktur, komunikatif, dan mampu menyelesaikan permasalahan secara efektif baik secara 
+            mandiri maupun dalam tim. Saya siap memberikan kontribusi terbaik sesuai kebutuhan perusahaan.
           </p>
           <div className="flex items-center justify-between">
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" />
